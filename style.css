@@ -267,6 +267,12 @@ body {
     height: 160px;
 }
 
+.container_project h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
 .container_project_first {
     display: flex;
     flex-direction: column;
@@ -277,6 +283,10 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
     transform: translateY(0);
     transition: transform 0.3s ease-in-out;
+    border: 1px solid #000fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 50px;
 }
 
 .container_project_first:hover{
