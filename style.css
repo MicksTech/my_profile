@@ -209,7 +209,7 @@ ul {
 
 .container_about h3 {
     text-transform: uppercase;
-    color: #000000;
+    color: var(--fourt-color);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -292,7 +292,7 @@ ul {
 .container_project h3 {
     text-transform: uppercase;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--fourt-color);
 }
 
 .container_project_first {
@@ -359,7 +359,7 @@ ul {
     text-align: center;
     text-transform: uppercase;
     font-size: 2rem;
-    color: var(--primary-color);
+    color: var(--fourt-color);
 }
 
 .container_circle {
@@ -488,4 +488,14 @@ ul {
     .container_contact {
         flex-direction: column;
     }
+}
+
+.container-date{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background: var(--font-color);
+    padding: 0.6rem;
 }

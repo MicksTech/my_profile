@@ -47,4 +47,6 @@ document.addEventListener('DOMContentLoaded', function () {
          navlist.style.display = 'none';
       });
    }
+
+   document.getElementById('currentDate').textContent = new Date().getFullYear();
 });
